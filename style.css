@@ -1,0 +1,165 @@
+/*
+ Theme Name:  Nic Mitchell
+ Description:  Vertex Child Theme
+ Author:       Nic Mitchell
+ Author URI:   http://nicmitchell.com
+ Template:     Vertex
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  nicmitchell
+*/
+
+/******* CUSTOM *********/
+
+.single-post div#main-area, .archive div#main-area, .page-template-page-blog-php div#main-area {
+    float: none;
+    margin: 0 auto;
+    max-width: 720px;
+    width: 100%;
+}
+
+#top-menu {
+    background-color: #161616;
+}
+
+#top-menu li {
+    display: inline-block;
+    font-weight: 400;
+}
+
+#pre-footer {
+    display: none;
+}
+
+/*a.action-button {
+    color: #4CC24C;
+    border-radius: 0;
+    border: 1px solid rgba(255,255,255,0.15);
+}*/
+
+.entry .read-more {
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 2px;
+    line-height: 16px;
+    transition: all 0.5s ease;
+}
+
+.entry .read-more:hover {
+    border-color: #959494;
+    transition: all 0.5s ease;
+}
+
+.entry .read-more:after {
+    content: " \00bb";
+}
+
+.home .footer-widget {
+    width: 300px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.home .footer-widget li {
+    padding-left: 0px;
+}
+
+.home .footer-widget li:before, .widget li:before {
+    content: "";
+    border: 0;
+}
+
+.home h4.widgettitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+#et-logo {
+    font-size: 36px;
+}
+
+.home #top-area h1 {
+    font-size: 72px;
+}
+
+#top-area h1.title {
+    color: #4CC24C;
+}
+
+#top-area h1.title span {
+    background: #161616;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 30px;
+    display: inline-block;
+}
+
+#main-footer {
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+code {
+    background: #ececec;
+    padding: 1px 4px;
+}
+code a {
+    color: #1587f9;
+}
+pre.wp-code-highlight.prettyprint.prettyprinted {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+    line-height: 2em;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+
+.entry h3:before {
+    content: "";
+    border-left: 5px solid #c24c4c;
+    margin-right: 10px;
+}
+
+.entry .alt-description h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
+
+#top-menu nav {
+    float: right;
+}
+
+a {
+    color: #1587f9;
+}
+
+.comment-reply-link, .form-submit #submit {
+    border-radius: 0px;
+}
+
+body {
+    font-weight: 400;
+}
+.entry blockquote {
+  border-left: 5px solid #C24C4C !important;
+  font-style: italic;
+  background: rgba(0,0,0,0.03);
+  padding: 20px 0;
+}
+.entry blockquote p {
+  font-size: 20px;
+}
+.tagline {
+    background-color:; #510938;
+}
+/*
+.description h2 a, .alt-description h2 a {
+    color: #4CC24C;
+}*/
