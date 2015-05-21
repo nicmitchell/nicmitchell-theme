@@ -1,3 +1,3 @@
-# nicmitchell-theme
+# nicmitchell
 
 Child theme for nicmitchell.com
